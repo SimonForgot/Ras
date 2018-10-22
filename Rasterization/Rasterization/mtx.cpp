@@ -10,7 +10,7 @@ void mtx::mm_dot(mtx lm, mtx rm)
 {
 	for (decltype(m.size())i = 0; i < m.size(); i++)
 	{
-		for (decltype(m[i].arr.size())j = 0; i < m[i].arr.size();j++)
+		for (decltype(m[i].arr.size())j = 0; j < m[i].arr.size();j++)
 		{
 
 			m[i].arr[j] = lm.m[i].dot(vec(0x000000,rm.m[0].arr[j],

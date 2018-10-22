@@ -1,6 +1,7 @@
 #pragma once
 #include<array>
-class vec;
+#include"vec.h"
+
 class triangle
 {
 private:

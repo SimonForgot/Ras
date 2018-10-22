@@ -1,5 +1,5 @@
 #include "vec.h"
-
+#include"mtx.h"
 void vec::get_cross_product_from(vec a, vec b)
 {
 	this->color = 0x000000;

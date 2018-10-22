@@ -15,7 +15,7 @@ int main()
 	line.put_in(tri);
 	line.vertex_processing();//get transformed geometry (vertex screen coordinates(with z inf))
 	line.Rasterization();//use verteies to get fragments and operate on them
-	
+
 	line.draw_to_ppm("triangle.ppm");
 	getchar();
 	return 0;
